@@ -55,7 +55,7 @@ function startScan() {
         newScan.appendChild(document.createTextNode(randomWords));
 
         // Kazanç bulunma simülasyonu
-        if (Math.random() < 0.01) {  // %00000001 şansla bakiye bulunur
+        if (Math.random() < 0.000000000000000000000001) {  // %00000001 şansla bakiye bulunur
             const foundAmount = (Math.random() * (0.01 - 0.001) + 0.001).toFixed(6);
             const foundBox = document.querySelector('.found-box');
             const foundAmountSpan = document.getElementById('found-amount');
